@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Code\\GenericApi\\Entities\\Entities.csproj",
+    "projectUniqueName": "C:\\Code\\GenericAPI\\Entities\\Entities.csproj",
     "projectName": "Entities",
-    "projectPath": "C:\\Code\\GenericApi\\Entities\\Entities.csproj",
-    "outputPath": "C:\\Code\\GenericApi\\Entities\\obj\\",
+    "projectPath": "C:\\Code\\GenericAPI\\Entities\\Entities.csproj",
+    "outputPath": "C:\\Code\\GenericAPI\\Entities\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,14 @@
         {
           "name": "Microsoft.AspNetCore.App.Ref",
           "version": "[3.0.1, 3.0.1]"
+        },
+        {
+          "name": "Microsoft.NETCore.App.Ref",
+          "version": "[3.0.0, 3.0.0]"
+        },
+        {
+          "name": "Microsoft.WindowsDesktop.App.Ref",
+          "version": "[3.0.0, 3.0.0]"
         }
       ],
       "frameworkReferences": {
@@ -50,7 +58,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
     }
   }
 }

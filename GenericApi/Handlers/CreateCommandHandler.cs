@@ -1,6 +1,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
+using Entities;
 using MediatR;
 using WebstoreEntities.Entities;
 
@@ -13,12 +14,11 @@ namespace GenericApi.Handlers
         where TEntity : Entity, new()
         where TCommand : class, ICreateCommand<TEntity>, new()
     {
-        private readonly DatabaseContext context;
+        //private readonly DatabaseContext context;
         private readonly IMapper mapper;
 
-        public CreateCommandHandler(DatabaseContext context, IMapper mapper)
+        public CreateCommandHandler(IMapper mapper)
         {
-            this.context = context;
             this.mapper = mapper;
         }
 
@@ -26,11 +26,12 @@ namespace GenericApi.Handlers
         {
             var entity = mapper.Map<TCommand, TEntity>(request);
 
-            var entities = context.Set<TEntity>().Add(entity);
+           //var entities = context.Set<TEntity>().Add(entity);
 
-            var result = context.SaveChanges();
+            //var result = context.SaveChanges();
 
-            return Task.FromResult(result > 0);
+            //return Task.FromResult(result > 0);
+            return Task.FromResult(false);
         }
     }
  }

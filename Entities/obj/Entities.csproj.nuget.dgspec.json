@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\GenericApi\\Entities\\Entities.csproj": {}
+    "C:\\Code\\GenericAPI\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Code\\GenericApi\\Entities\\Entities.csproj": {
+    "C:\\Code\\GenericAPI\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\GenericApi\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Code\\GenericAPI\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Code\\GenericApi\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\mikie.TLOFFICE\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\GenericApi\\Entities\\obj\\",
+        "projectPath": "C:\\Code\\GenericAPI\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\mikie\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\GenericAPI\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mikie.TLOFFICE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mikie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,6 +54,14 @@
             {
               "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -61,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
